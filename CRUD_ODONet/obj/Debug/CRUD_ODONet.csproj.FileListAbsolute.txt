@@ -1,0 +1,10 @@
+D:\proyectos\IM - github(list9)\C#.NET\CRUD-ODO_Net\CRUD_ODONet\CRUD_ODONet\bin\Debug\CRUD_ODONet.exe.config
+D:\proyectos\IM - github(list9)\C#.NET\CRUD-ODO_Net\CRUD_ODONet\CRUD_ODONet\bin\Debug\CRUD_ODONet.exe
+D:\proyectos\IM - github(list9)\C#.NET\CRUD-ODO_Net\CRUD_ODONet\CRUD_ODONet\bin\Debug\CRUD_ODONet.pdb
+D:\proyectos\IM - github(list9)\C#.NET\CRUD-ODO_Net\CRUD_ODONet\CRUD_ODONet\obj\Debug\CRUD_ODONet.csproj.AssemblyReference.cache
+D:\proyectos\IM - github(list9)\C#.NET\CRUD-ODO_Net\CRUD_ODONet\CRUD_ODONet\obj\Debug\CRUD_ODONet.Form1.resources
+D:\proyectos\IM - github(list9)\C#.NET\CRUD-ODO_Net\CRUD_ODONet\CRUD_ODONet\obj\Debug\CRUD_ODONet.Properties.Resources.resources
+D:\proyectos\IM - github(list9)\C#.NET\CRUD-ODO_Net\CRUD_ODONet\CRUD_ODONet\obj\Debug\CRUD_ODONet.csproj.GenerateResource.cache
+D:\proyectos\IM - github(list9)\C#.NET\CRUD-ODO_Net\CRUD_ODONet\CRUD_ODONet\obj\Debug\CRUD_ODONet.csproj.CoreCompileInputs.cache
+D:\proyectos\IM - github(list9)\C#.NET\CRUD-ODO_Net\CRUD_ODONet\CRUD_ODONet\obj\Debug\CRUD_ODONet.exe
+D:\proyectos\IM - github(list9)\C#.NET\CRUD-ODO_Net\CRUD_ODONet\CRUD_ODONet\obj\Debug\CRUD_ODONet.pdb
