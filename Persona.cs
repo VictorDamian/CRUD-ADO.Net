@@ -7,15 +7,18 @@ namespace POO_C_
         string Minombre;
         int Miedad;
 
+        public string _Minombre1 { get => Minombre; set => Minombre = value; }
+        public int _Miedad1 { get => Miedad; set => Miedad = value; }
+
         public Persona(string nombre,int edad)
         {
-            Minombre = nombre;
-            Miedad = edad;
+            _Minombre1 = nombre;
+            _Miedad1 = edad;
         }
 
         public void Hablar()
         {
-            Console.WriteLine("Me llamo " + Minombre +" y tengo "+Miedad+" años");
+            Console.WriteLine("Me llamo " + _Minombre1 +" y tengo "+_Miedad1+" años");
         }
         public void Caminar()
         {

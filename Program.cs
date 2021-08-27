@@ -8,6 +8,7 @@ namespace POO_C_
         {
             Persona people = new Persona("Victor",24);
             people.Hablar();
+            people.Caminar();
         }
     }
 }
