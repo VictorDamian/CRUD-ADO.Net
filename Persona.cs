@@ -4,18 +4,26 @@ namespace POO_C_
 {
     public class Persona
     {
-        public string nombre;
-        public int edad;
+        string Minombre;
+        int Miedad;
+
+        public Persona(string nombre,int edad)
+        {
+            Minombre = nombre;
+            Miedad = edad;
+        }
 
         public void Hablar()
         {
-            Console.WriteLine("Me llamo " + nombre +" y tengo "+edad+" años");
+            Console.WriteLine("Me llamo " + Minombre +" y tengo "+Miedad+" años");
         }
-        public void Caminar(){
-
+        public void Caminar()
+        {
+            Console.Write("Estoy caminando");
         }
-        public void Comer(){
-
+        public void Comer()
+        {
+            Console.Write("Estoy comiendo");
         }
     }
 }

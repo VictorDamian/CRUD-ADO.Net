@@ -14,3 +14,19 @@ D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\POO_C#
 D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\ref\POO_C#.dll
 D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\POO_C#.pdb
 D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\POO_C#.genruntimeconfig.cache
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\bin\Debug\net5.0\POO_C#.exe
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\bin\Debug\net5.0\POO_C#.deps.json
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\bin\Debug\net5.0\POO_C#.runtimeconfig.json
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\bin\Debug\net5.0\POO_C#.runtimeconfig.dev.json
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\bin\Debug\net5.0\POO_C#.dll
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\bin\Debug\net5.0\ref\POO_C#.dll
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\bin\Debug\net5.0\POO_C#.pdb
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\obj\Debug\net5.0\POO_C#.csproj.AssemblyReference.cache
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\obj\Debug\net5.0\POO_C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\obj\Debug\net5.0\POO_C#.AssemblyInfoInputs.cache
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\obj\Debug\net5.0\POO_C#.AssemblyInfo.cs
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\obj\Debug\net5.0\POO_C#.csproj.CoreCompileInputs.cache
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\obj\Debug\net5.0\POO_C#.dll
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\obj\Debug\net5.0\ref\POO_C#.dll
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\obj\Debug\net5.0\POO_C#.pdb
+D:\proyectos\IM - github(list9)\C#.NET\POO_en_CSHARP\obj\Debug\net5.0\POO_C#.genruntimeconfig.cache

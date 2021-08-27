@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\proyectos\\python(listo)\\Programa Python\\1ready\\POO_C#\\POO_C#.csproj",
+      "projectUniqueName": "D:\\proyectos\\IM - github(list9)\\C#.NET\\POO_en_CSHARP\\POO_C#.csproj",
       "projectName": "POO_C#",
-      "projectPath": "D:\\proyectos\\python(listo)\\Programa Python\\1ready\\POO_C#\\POO_C#.csproj",
+      "projectPath": "D:\\proyectos\\IM - github(list9)\\C#.NET\\POO_en_CSHARP\\POO_C#.csproj",
       "packagesPath": "C:\\Users\\stalk\\.nuget\\packages\\",
-      "outputPath": "D:\\proyectos\\python(listo)\\Programa Python\\1ready\\POO_C#\\obj\\",
+      "outputPath": "D:\\proyectos\\IM - github(list9)\\C#.NET\\POO_en_CSHARP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stalk\\AppData\\Roaming\\NuGet\\NuGet.Config",
