@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\stalk\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\stalk\\.nuget\\packages"
+    ]
+  }
+}

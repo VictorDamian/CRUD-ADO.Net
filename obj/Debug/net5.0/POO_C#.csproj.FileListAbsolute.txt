@@ -1,0 +1,16 @@
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\POO_C#.csproj.AssemblyReference.cache
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\POO_C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\POO_C#.AssemblyInfoInputs.cache
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\POO_C#.AssemblyInfo.cs
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\POO_C#.csproj.CoreCompileInputs.cache
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\bin\Debug\net5.0\POO_C#.exe
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\bin\Debug\net5.0\POO_C#.deps.json
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\bin\Debug\net5.0\POO_C#.runtimeconfig.json
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\bin\Debug\net5.0\POO_C#.runtimeconfig.dev.json
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\bin\Debug\net5.0\POO_C#.dll
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\bin\Debug\net5.0\ref\POO_C#.dll
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\bin\Debug\net5.0\POO_C#.pdb
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\POO_C#.dll
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\ref\POO_C#.dll
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\POO_C#.pdb
+D:\proyectos\python(listo)\Programa Python\1ready\POO_C#\obj\Debug\net5.0\POO_C#.genruntimeconfig.cache
