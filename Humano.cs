@@ -5,7 +5,7 @@ namespace POO_C_
     public class Humano
     {
         public Humano(){
-            
+
         }
         private string nombre;
         private int edad;
@@ -23,6 +23,10 @@ namespace POO_C_
         public void Hablar()
         {
             Console.WriteLine("Hola, me llamo "+_Nombre+" y tendo "+_Edad+" años.");
+        }
+        public void IrEscuela()
+        {
+            Console.WriteLine(nombre+" va a la escuela.");
         }
     }
 }

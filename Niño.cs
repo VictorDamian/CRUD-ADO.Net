@@ -8,5 +8,9 @@ namespace POO_C_
             _Nombre=nom;
             _Edad=edad;
         }
+        public Niño(string nombre)
+        {
+            _Nombre = nombre;
+        }
     }
 }
