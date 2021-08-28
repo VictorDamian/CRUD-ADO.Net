@@ -1,4 +1,7 @@
-using System;
+/////
+/// By:VictorDamian
+/////
+
 namespace POO_C_
 {
     public class Niño : Humano
