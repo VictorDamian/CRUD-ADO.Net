@@ -6,9 +6,8 @@ namespace POO_C_
     {
         static void Main(string[] args)
         {
-            Persona people = new Persona("Victor",24);
-            people.Hablar();
-            people.Caminar();
+            Niño niñ = new Niño("Pepito", 10);
+            niñ.Hablar();
         }
     }
 }
