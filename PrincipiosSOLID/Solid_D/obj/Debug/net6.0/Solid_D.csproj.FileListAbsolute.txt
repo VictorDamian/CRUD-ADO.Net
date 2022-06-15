@@ -1,0 +1,15 @@
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\bin\Debug\net6.0\Solid_D.exe
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\bin\Debug\net6.0\Solid_D.deps.json
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\bin\Debug\net6.0\Solid_D.runtimeconfig.json
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\bin\Debug\net6.0\Solid_D.dll
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\bin\Debug\net6.0\Solid_D.pdb
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\obj\Debug\net6.0\Solid_D.csproj.AssemblyReference.cache
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\obj\Debug\net6.0\Solid_D.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\obj\Debug\net6.0\Solid_D.AssemblyInfoInputs.cache
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\obj\Debug\net6.0\Solid_D.AssemblyInfo.cs
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\obj\Debug\net6.0\Solid_D.csproj.CoreCompileInputs.cache
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\obj\Debug\net6.0\Solid_D.dll
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\obj\Debug\net6.0\refint\Solid_D.dll
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\obj\Debug\net6.0\Solid_D.pdb
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\obj\Debug\net6.0\Solid_D.genruntimeconfig.cache
+C:\Users\stalk\Desktop\PrincipiosSOLID\Solid_D\obj\Debug\net6.0\ref\Solid_D.dll
