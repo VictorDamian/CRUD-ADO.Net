@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Patterns.FactoryP;
+using Patterns.FactoryP.Abstractions;
 using Patterns.ObservableP;
 using Patterns.ObservableP.EmailService;
 using Patterns.ObservableP.Models;
@@ -11,15 +12,26 @@ Console.WriteLine("--------------");
 
 #region Singleton
 
-Console.WriteLine(Singleton.GetInstance.Msg);
-Singleton.GetInstance.Msg = "Ola k ase";
-Console.WriteLine(Singleton.GetInstance.Msg);
+//Console.WriteLine(Singleton.GetInstance.Msg);
+//Singleton.GetInstance.Msg = "Ola k ase";
+//Console.WriteLine(Singleton.GetInstance.Msg);
 #endregion
 
 #region Factory simple
 
-// MyConnection Conn = new Factory().ObtConexion(ConnectionProviderType.MySQLConnection);
-// Console.WriteLine(Conn.Connections());
+Factory factory = new Factory();
+
+// Usar la fábrica para obtener la conexión a la base de datos
+IAbstractFactory dbFactory = factory.GetFactory(ConnectionService.DB);
+MyConnection sqlConnection = dbFactory.GetDB(ConnectionProviderType.SQLConnection);
+//Console.WriteLine(sqlConnection.Connections());
+
+//Usar la fábrica para obtener la conexión REST
+IAbstractFactory restFactory = factory.GetFactory(ConnectionService.Rest);
+IConnectionRest restConnection = restFactory.GetRest(ConnectionProviderType.SalesRest);
+string data = restConnection.readURL("https://api.example.com/data");
+//Console.WriteLine(data);
+
 #endregion
 
 #region Factory Abstract
@@ -34,48 +46,48 @@ Console.WriteLine(oConnApi.readURL("localhost"));
 
 #region Observable
 
-OrderService _orderService = new OrderService();
+//OrderService _orderService = new OrderService();
 
-var order =  new Order(){
-        OrderNumber = "89675RCSG",
-        OrderDate = DateTime.Now,
-        TotalAmount = 105.99m,
-        OrderStatus = OrderStatuses.PendingPayment
-    };
-//
-Console.WriteLine("\nAttaching observer...");
+//var order =  new Order(){
+//        OrderNumber = "89675RCSG",
+//        OrderDate = DateTime.Now,
+//        TotalAmount = 105.99m,
+//        OrderStatus = OrderStatuses.PendingPayment
+//    };
+////
+//Console.WriteLine("\nAttaching observer...");
 
-var smsObs = new SMSObserver();
-var emailObs = new EmailObserver();
+//var smsObs = new SMSObserver();
+//var emailObs = new EmailObserver();
 
-_orderService.Attach(smsObs);
-_orderService.Attach(emailObs);
+//_orderService.Attach(smsObs);
+//_orderService.Attach(emailObs);
 
-Console.WriteLine("Updating ORder Status....");
+//Console.WriteLine("Updating ORder Status....");
 
-_orderService.UpdateOrder(order);
+//_orderService.UpdateOrder(order);
 
-Console.WriteLine("Detaching SMS Observer...");
-_orderService.Detach(smsObs);
+//Console.WriteLine("Detaching SMS Observer...");
+//_orderService.Detach(smsObs);
 
-Console.WriteLine("Updating Order Status...");
-_orderService.UpdateOrder(order);
+//Console.WriteLine("Updating Order Status...");
+//_orderService.UpdateOrder(order);
 
 #endregion
 
 #region Strategy
 
-Console.WriteLine("\n--- Patron Estrategia ---\n");
-Pato pelirrojo = new PatoPelirrojo();
-pelirrojo.Mostrar();
-pelirrojo.Nadar();
-pelirrojo.Volar();
-pelirrojo.Graznar();
-Console.WriteLine();
+//Console.WriteLine("\n--- Patron Estrategia ---\n");
+//Pato pelirrojo = new PatoPelirrojo();
+//pelirrojo.Mostrar();
+//pelirrojo.Nadar();
+//pelirrojo.Volar();
+//pelirrojo.Graznar();
+//Console.WriteLine();
 
-Pato decorativo = new PatoDecorativo();
-decorativo.Mostrar();
-decorativo.Nadar();
-decorativo.Volar();
-decorativo.Graznar();
+//Pato decorativo = new PatoDecorativo();
+//decorativo.Mostrar();
+//decorativo.Nadar();
+//decorativo.Volar();
+//decorativo.Graznar();
 #endregion

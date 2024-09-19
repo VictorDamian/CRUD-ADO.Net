@@ -7,19 +7,23 @@ namespace Patterns.FactoryP
     {
         public MyConnection GetDB(ConnectionProviderType type)
         {
-            switch(type){
-                case ConnectionProviderType.SQLConnection:
-                    return (new ConnectionSQL());
-                case ConnectionProviderType.MySQLConnection:
-                    return (new ConnectionMySQL());
-                default:
-                    return null;
-            }
+            return type switch
+            {
+                ConnectionProviderType.SQLConnection => new ConnectionSQL(),
+                ConnectionProviderType.MySQLConnection => new ConnectionMySQL(),
+                _ => throw new ArgumentException("Tipo de conexión no soportado")
+            };
         }
 
         public IConnectionRest GetRest(ConnectionProviderType url)
         {
-            throw new NotImplementedException();
+
+            return url switch
+            {
+                ConnectionProviderType.SalesRest => new ConnectionRestSales(),
+                ConnectionProviderType.UserRest => new ConnectionRestUsers(),
+                _ => throw new ArgumentException("Tipo de conexión REST no soportado")
+            };
         }
     }
 }
